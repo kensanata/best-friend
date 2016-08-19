@@ -4,6 +4,11 @@
 % for debugging purposes -- displays the margins
 % \geometry{showframe}
 
+% Set up the images/graphics package
+\usepackage{graphicx}
+\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
+\graphicspath{{graphics/}}
+
 % The following package makes prettier tables. We're all about the
 % bling!
 \usepackage{booktabs}
@@ -62,11 +67,20 @@ pain, roll with the punches, overcome adversity.\marginnote{Willpower
   is a bit like \emph{hit points} in D\&D.}
 
 The number of friends by your side determines your will power. Roll
-\textbf{1d6 per person} that stands with you.\marginnote{The number of
-  friends you have is bit like your \emph{character level} in D\&D.}
-When you gain a new friend, reroll your willpower and keep it if it is
-\textit{higher} than before. When you lose a friend, reroll your
-willpower and keep it if it is \textit{lower} than before.
+\textbf{1d6} and add an extra \textbf{1d6 per friend}.\marginnote{The
+  number of friends you have is bit like your \emph{character level}
+  in D\&D.} When you gain a new friend, reroll your willpower and keep
+it if it is \textit{higher} than before. When you lose a friend,
+reroll your willpower and keep it if it is \textit{lower} than before.
+
+When you create a new character, you have no friends. Thus, roll 1d6
+for your willpower. Hopefully, as you play your first session, all the
+player characters will be friends and you'll all reroll your
+willpower.\marginnote{If you have three player characters, each will
+  have rolled 4d6 for their willpower.}
+
+\newthought{Time heals all wounds} and willpower is recovered at a
+rate of 1d6 per day.
 
 \newpage
 
@@ -159,7 +173,7 @@ it's hard to mend a broken friendship.
   \label{tab:reactions}
 \end{table}
 
-\newthought{ When meeting people,} it can be hard to decide what their
+\newthought{When meeting people,} it can be hard to decide what their
 disposition is. Roll on the table of initial dispositions to find out.
 
 \begin{table}
@@ -223,6 +237,92 @@ you, to steal from you, to trip you, push you, beat you.
 \paragraph{02}
 …
 
+\section{Start the game}
+
+How do you get started? Invite some friends and sit around a table.
+Get pen and paper, something to drink and something to eat, and go
+through this list:
+
+\begin{enumerate}
+\item decide who is going to be referee\marginnote{The \emph{referee}
+  is the person running the rest of the world. In other role-playing
+  games this role is sometimes called the Game Master or GM. Everybody
+  else is is a \emph{player}.}
+\item roll for an adventure idea or propose your own
+\item name your castle
+\item name your lord
+\item name your occupation
+\item create character for every player
+\item the referee describes the scene, introduces a potential conflict
+  and asks the players, ``What do you do?''
+\item talk about it, in-character (from character to character) or
+  out-of-character (as the people sitting at the table)
+\item resolve conflicts by determining leaders for each side, counting
+  their supporting friends\marginnote{Reroll willpower if you're in a
+    scene with less friends than usual!} in the scene, roll some dice
+\item the referee describes a new scene based on what happened and
+  repeat…
+\end{enumerate}
+
+\newpage
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Merian_Regensberg_1654.jpg}
+    \caption{Rägensperg}
+    \label{fig:regensberg}
+\end{figure}
+
+\section{Example of play}
+
+Alex, Berta, Chris and Dominique are playing the game. I'm Alex and
+I'll be the referee, the others are the players. I roll for an
+adventure idea and get the first one about the evil cook.
+
+We all answer the questions as follows:
+
+\begin{enumerate}
+\item we're on castle Rägensperg
+\item our lord is called Lütold
+\item we're peasants
+\end{enumerate}
+
+The players each create a character and name them. Berta creates a
+character and names her Elena. Apparently Elena is cute. Chris creates
+Finnar the quick and Dominique creates Gorm the wily.
+
+I start describing the scene: ``Our lord has decided to throw a feast
+because they finally started the construction of the Fahr abbey. As
+peasants, we have been called upon to each bring ten eggs and a half a
+bag of vegetables. Sadly, you know Otto the cook. As soon as his
+kitchen boys saw you, they started jeering kicking your shins knowing
+that you cannot chase them through the courtyard with your hands full.
+What do you do?''
+
+The players talk. They don't like being bullied and decide to put down
+their delivery and chase the five kids. Finnar is the quickest and so
+he leads the chase. This is the character's bonding experience so they
+all declare their friendship and Finnar gets to roll 3d6 and gets a
+12. I roll for the five kitchen boys and get 22. This looks like
+impossible odds. I roll 1 and Chris rolls 4. The score is now 11 to
+18. The players are not ready to give up. I say, ``You run chase the
+boys into the horse stables. The stable boys are shocked but you just
+rush past them.'' We roll again and get the same result. The score is
+now 10 to 14. Perhaps they can be taught a lesson after all? I say,
+``The horse master turns around and promises to break all your bones
+if you do not leave immediately!'' We roll again and get 5 and 6
+respectively, so now we're down to 5 and 8. We'll risk it! Next round
+we're down to 2 and 3 and then I roll 6 and they roll 2. It's a draw,
+both sides are out of willpower at the same time! I describe the
+scene: ``You lost the boys and when you return you arrive just in time
+to see Otto the cook trying to hide away your eggs in his own little
+basket! As he sees you, he hesitates...'' And so we move to the next
+scene.
+
+As all of this happens, I'm thinking of the future, taking notes. A
+peasant revolt. Recruiters for a crusade. The sons of Lütold starting
+to fight each other. Religious madness. Plenty of stuff for future
+sessions.
 
 \section{License}
 
