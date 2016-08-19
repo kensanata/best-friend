@@ -1,3 +1,9 @@
+## Emacs backup files:
+*~
+
+## Sample files:
+sample-*
+	
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
